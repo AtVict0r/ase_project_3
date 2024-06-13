@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "message": "Great job",
+        "lucky_number": 12,
+        "spirit_animal": "Dog"
+    },
+    {
+        "id": 2,
+        "message": "Becoming a billionaire soon",
+        "lucky_number": 8,
+        "spirit_animal": "Lion"
+    },
+    {
+        "id": 3,
+        "message": "Get some great ideas soon",
+        "lucky_number": 1,
+        "spirit_animal": "Rabbit"
+    },
+    {
+        "id": 4,
+        "message": "An apple a day",
+        "lucky_number": 100,
+        "spirit_animal": "Turtle"
+    }
+]
