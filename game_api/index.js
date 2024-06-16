@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 
 // GET all game objects
-app.get('/game', (req, res) => {
+app.get('/games', (req, res) => {
     res.json(game);
 });
 
@@ -38,7 +38,7 @@ app.post('/game', (req, res) => {
 // POST multiple new game objects
 app.post('/games', (req, res) => {
     const newGameObjects = req.body;
-    
+
     // Check if the body is an array of objects
     if (Array.isArray(newGameObjects)) {
         newGameObjects.forEach((newGameObj) => {
